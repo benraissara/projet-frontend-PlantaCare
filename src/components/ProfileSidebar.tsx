@@ -19,7 +19,6 @@ interface ProfileSidebarProps {
 export function ProfileSidebar({
   isOpen,
   onClose,
-  userName
 }: ProfileSidebarProps) {
   const navigate = useNavigate();
   const menuItems = [
@@ -111,12 +110,12 @@ export function ProfileSidebar({
 
               <div className="mt-4">
                 <img
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+                src="sara.jpeg"
                 alt="Profile"
                 className="w-16 h-16 rounded-full object-cover border-2 border-primary mb-3" />
               
                 <h2 className="text-xl font-bold text-primary-dark">
-                  Hi, {userName}
+                  Hi, Sara
                 </h2>
                 <p className="text-sm text-gray-500">Plant Lover</p>
               </div>
