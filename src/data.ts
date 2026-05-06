@@ -9,7 +9,7 @@ export const MOCK_PRODUCTS: Product[] = [
   name: 'Monstera Deliciosa',
   price: 24.99,
   image:
-  'https://images.unsplash.com/photo-1614594975525-e45190c55d40?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/1200x/7d/6d/8a/7d6d8aecf07f07389a43b832a73881f4.jpg',
   category: 'Plants'
 },
 {
@@ -17,7 +17,7 @@ export const MOCK_PRODUCTS: Product[] = [
   name: 'Gardening Trowel',
   price: 12.5,
   image:
-  'https://images.unsplash.com/photo-1416879598556-3346f5b15114?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/1200x/c2/dc/5d/c2dc5dadf40e26d165efcb08e723a222.jpg',
   category: 'Outil'
 },
 {
@@ -25,7 +25,7 @@ export const MOCK_PRODUCTS: Product[] = [
   name: 'Sunflower Seeds',
   price: 4.99,
   image:
-  'https://images.unsplash.com/photo-1599008985175-104992b8d0c2?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/736x/2a/95/93/2a9593ec5a091ca39439af297ecd0610.jpg',
   category: 'Seeds'
 },
 {
@@ -33,7 +33,7 @@ export const MOCK_PRODUCTS: Product[] = [
   name: 'Orchid',
   price: 35.0,
   image:
-  'https://images.unsplash.com/photo-1512238701577-f181d9e05eb2?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/736x/dc/cc/48/dccc48e325f12c37bd0b03134246abdd.jpg',
   category: 'Flower'
 },
 {
@@ -41,7 +41,7 @@ export const MOCK_PRODUCTS: Product[] = [
   name: 'Watering Can',
   price: 18.99,
   image:
-  'https://images.unsplash.com/photo-1592424042853-625ee3133606?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/1200x/24/26/c6/2426c662483bd1669ffa0ba9212a844d.jpg',
   category: 'Outil'
 },
 {
@@ -49,7 +49,7 @@ export const MOCK_PRODUCTS: Product[] = [
   name: 'Snake Plant',
   price: 20.0,
   image:
-  'https://images.unsplash.com/photo-1593482892290-f54927ae1b7e?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/1200x/24/d3/7a/24d37acbe66af6a2813fb788aeafe8c9.jpg',
   category: 'Plants'
 }];
 
@@ -80,14 +80,14 @@ export const MOCK_USER_PLANTS: Plant[] = [
   id: '4',
   name: 'Mint',
   image:
-  'https://images.unsplash.com/photo-1628556291632-110196884144?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/1200x/af/4e/5c/af4e5cd43b3665108b22f1316de70855.jpg',
   status: 'Healthy'
 },
 {
   id: '5',
   name: 'Rosemary',
   image:
-  'https://images.unsplash.com/photo-1595958567119-1583348633e2?auto=format&fit=crop&q=80&w=400',
+  'https://i.pinimg.com/1200x/4f/2a/25/4f2a254bf11729dc388835ebc59a5880.jpg',
   status: 'Growing'
 }];
 
@@ -96,14 +96,14 @@ export const MOCK_POSTS: Post[] = [
 {
   id: '1',
   user: {
-    name: 'Emma W.',
+    name: 'Malika E.',
     avatar:
-    'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150'
+    'malika.jpeg'
   },
   timestamp: '2 hours ago',
   content: 'My monstera just grew a new leaf! Look at those fenestrations 😍',
   image:
-  'https://images.unsplash.com/photo-1614594975525-e45190c55d40?auto=format&fit=crop&q=80&w=600',
+  'https://i.pinimg.com/736x/2c/1e/0e/2c1e0ed3f8518e9504fdc3942ffaf782.jpg',
   likes: 24,
   comments: 5,
   isLiked: true
@@ -111,9 +111,9 @@ export const MOCK_POSTS: Post[] = [
 {
   id: '2',
   user: {
-    name: 'James T.',
+    name: 'Ikram L.',
     avatar:
-    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150'
+    'ikram.jpeg'
   },
   timestamp: '5 hours ago',
   content:
@@ -124,14 +124,14 @@ export const MOCK_POSTS: Post[] = [
 {
   id: '3',
   user: {
-    name: 'Sarah (You)',
+    name: 'Sara (You)',
     avatar:
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150'
+    'sara.jpeg'
   },
   timestamp: '1 day ago',
   content: 'Just harvested my first batch of basil for homemade pesto! 🌱',
   image:
-  'https://images.unsplash.com/photo-1615485925600-97237c4fc1ec?auto=format&fit=crop&q=80&w=600',
+  'https://i.pinimg.com/1200x/c0/a8/26/c0a826220287a69ad8b790b9fd02daac.jpg',
   likes: 45,
   comments: 12
 }];
